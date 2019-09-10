@@ -28,3 +28,13 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-wa
 - Add 'div' with id="disqus_thread" to needed layout
 
 
+## Adding google analytics
+```
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : "UA-xxxxx-x"
+    anonymize_ip         : false
+``` 
+
+
