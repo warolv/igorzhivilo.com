@@ -3,9 +3,9 @@ title: "Preventing lock of table during migration using LHM (Large Hadron Migrat
 date: 2016-05-16 08:37
 comments: true
 categories:
-  - Rails
+  - rails
 tags:
-  - LHM
+  - lhm
 description: Rails caching, custom fields caching, activesupport concerns
 keywords: rails caching, custom fields caching, memcahed, activesupport concerns
 sharing: true 

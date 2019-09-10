@@ -3,10 +3,10 @@ title: "Handling RabbitMQ publisher failures"
 date: 2015-05-01 14:21
 comments: true
 categories:
-  - Rails
+  - rails
 tags:
-  - Rails
-  - RabbitMQ
+  - rails
+  - rabbitMQ
 description: RabbitMQ publisher failures, bunny publisher failure control, make bunny asynchronous using jobs, resque for bunny gem
 keywords: rabbitmq publisher, publish with bunny, bunny job control, bunny failures, rabbitmq failures, rabbitmq publisher, resque bunny
 sharing: true

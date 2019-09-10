@@ -3,10 +3,10 @@ title: "Deploying sinatra web application to google clouds platform"
 date: 2016-04-29 12:54
 comments: true
 categories:
-  - Rails
+  - rails
 tags:
-  - Rails
-  - Sinatra
+  - rails
+  - sinatra
 description: Google cloud platform deployment, sinatra application deployment, google cloud SDK, gcloud CLI, google SDK for ruby 
 keywords: google cloud platform, google SDK, sinatra, gcloud, sinatra, google SDK, google SDK ruby
 sharing: true

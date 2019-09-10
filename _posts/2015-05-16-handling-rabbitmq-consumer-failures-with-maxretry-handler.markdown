@@ -3,10 +3,10 @@ title: "Handling RabbitMQ consumer failures with maxretry handler"
 date: 2015-05-16 12:23
 comments: true
 categories:
-  - Rails
+  - rails
 tags:
-  - Rails
-  - RabbitMQ
+  - rails
+  - rabbitMQ
 description: RabbitMQ consumer failures, sneakers failure control, maxretry handler, sneakers job control
 keywords: rabbitmq consumer, sneakers, sneakers job control, sneakers failures, rabbitmq failures, rabbitmq consumer
 sharing: true

@@ -3,9 +3,9 @@ title: "Wordpress single page analysis or passive information gathering"
 date: 2017-05-22 12:24
 comments: true
 categories:
-  - Web Security
+  - web-security
 tags:
-  - Wordpress
+  - wordpress
 description: wordpress passive information gathering, wordpress single page analysis
 keywords: wordpress info gathering, wordpress information gathering, wordpress passive information gathering, wordpress hacking, wordpress single page analysis
 sharing: true
