@@ -22,19 +22,21 @@
 How to set two buckets in AWS s3, igorzhivilo with content and www.igorzhivilo.com which redirects to igorzhivilo.com
 https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
 
-## Adding comments to your blog - disqus
-
-- Add to _config.yml - comments: provider: "disqus", disqus: shortname  :"your-short-name"
+## Adding comments to your blog with disqus service and via _config.yml
+```
+comments:
+  provider               : "disqus"
+  disqus:
+    shortname            : "you_shortname"
+``` 
 - Add 'div' with id="disqus_thread" to needed layout
 
 
-## Adding google analytics
+## Adding google analytics via _config.yml
 ```
 analytics:
   provider               : "google-gtag"
   google:
     tracking_id          : "UA-xxxxx-x"
     anonymize_ip         : false
-``` 
-
-
+```
