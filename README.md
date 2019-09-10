@@ -24,11 +24,7 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-wa
 
 ## Adding comments to your blog - disqus
 
--  Add to _config.yml:
-   comments:
-     provider               : "disqus"
-     disqus:
-       shortname            : "your-short-name"
-- Add <div id="disqus_thread"></div> to your layout
+- Add to _config.yml - comments: provider: "disqus", disqus: shortname  :"your-short-name"
+- Add 'div' with id="disqus_thread" to needed layout
 
 
