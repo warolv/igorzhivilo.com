@@ -21,3 +21,14 @@
 ## Setting you custom domain with AWS s3 and hover
 How to set two buckets in AWS s3, igorzhivilo with content and www.igorzhivilo.com which redirects to igorzhivilo.com
 https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
+
+## Adding comments to your blog - disqus
+
+-  Add to _config.yml:
+   comments:
+     provider               : "disqus"
+     disqus:
+       shortname            : "your-short-name"
+- Add <div id="disqus_thread"></div> to your layout
+
+
