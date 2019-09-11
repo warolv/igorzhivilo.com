@@ -40,3 +40,20 @@ analytics:
     tracking_id          : "UA-xxxxx-x"
     anonymize_ip         : false
 ```
+
+## Adding seo/keywords
+- Add keywords to seo.html
+```
+description: descr1, descr2, descr3
+keywords: 
+  - aaa
+  - bbb
+  - ccc
+```
+
+```erb
+{%- if page.title -%}
+  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
+{%- endif -%}
+```
+- Add keywords / descriptio to post

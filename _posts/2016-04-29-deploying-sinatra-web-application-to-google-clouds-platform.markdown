@@ -8,7 +8,14 @@ tags:
   - rails
   - sinatra
 description: Google cloud platform deployment, sinatra application deployment, google cloud SDK, gcloud CLI, google SDK for ruby 
-keywords: google cloud platform, google SDK, sinatra, gcloud, sinatra, google SDK, google SDK ruby
+keywords: 
+  - google cloud platform
+  - google SDK
+  - sinatra
+  - gcloud
+  - sinatra 
+  - google SDK
+  - google SDK ruby
 sharing: true
 ---
 

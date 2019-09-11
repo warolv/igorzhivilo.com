@@ -8,7 +8,13 @@ tags:
   - rails
   - rabbitMQ
 description: RabbitMQ consumer failures, sneakers failure control, maxretry handler, sneakers job control
-keywords: rabbitmq consumer, sneakers, sneakers job control, sneakers failures, rabbitmq failures, rabbitmq consumer
+keywords: 
+  - rabbitmq consumer
+  - sneakers
+  - sneakers job control
+  - sneakers failures
+  - rabbitmq failures
+  - rabbitmq consumer
 sharing: true
 ---
 

@@ -7,7 +7,11 @@ categories:
 tags:
   - lhm
 description: Rails caching, custom fields caching, activesupport concerns
-keywords: rails caching, custom fields caching, memcahed, activesupport concerns
+keywords: 
+  - rails caching
+  - custom fields caching
+  - memcahed
+  - activesupport concerns
 sharing: true 
 ---
 #### Problem definition

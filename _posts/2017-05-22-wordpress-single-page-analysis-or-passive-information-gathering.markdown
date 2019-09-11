@@ -2,12 +2,19 @@
 title: "Wordpress single page analysis or passive information gathering"
 date: 2017-05-22 12:24
 comments: true
+header:
+  teaser: assets/images/wordpress-analysis.png
 categories:
   - web-security
 tags:
   - wordpress
 description: wordpress passive information gathering, wordpress single page analysis
-keywords: wordpress info gathering, wordpress information gathering, wordpress passive information gathering, wordpress hacking, wordpress single page analysis
+keywords: 
+  - wordpress info gathering
+  - wordpress information gathering
+  - wordpress passive information gathering
+  - wordpress hacking
+  - wordpress single page analysis
 sharing: true
 draft: false
 ---

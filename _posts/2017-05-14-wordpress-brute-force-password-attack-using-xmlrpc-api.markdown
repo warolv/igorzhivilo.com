@@ -2,12 +2,22 @@
 title: "Wordpress brute force password attack using XML-RPC API"
 date: 2017-05-14 17:12
 comments: true
+header:
+  teaser: assets/images/wordpress-hacking.png
 categories:
   - web-security
 tags:
   - wordpress
 description: wordpress attack, wordpres password brute force, wordpress xmlrpc api, wordpress hacking
-keywords: wordpress hacking, wordpress brute force, attacking wordpress, wordpress xmlrpc api, web hacking, wordpress information gathering, wordpress security, wordpress auditing
+keywords: 
+  - wordpress hacking
+  - wordpress brute force
+  - attacking wordpress
+  - wordpress xmlrpc api
+  - web hacking
+  - wordpress information gathering
+  - wordpress security
+  - wordpress auditing
 sharing: true
 ---
 <img src="/assets/images/wordpress-hacking.png"/> 

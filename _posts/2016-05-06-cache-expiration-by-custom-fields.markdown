@@ -2,13 +2,19 @@
 title: "Cache expiration by custom fields"
 date: 2016-05-06 15:43
 comments: true
+header:
+  teaser: assets/images/memcached.png
 categories:
   - rails
 tags:
   - rails
   - memcached
 description: Rails caching, custom fields caching, activesupport concerns
-keywords: rails caching, custom fields caching, memcahed, activesupport concerns
+keywords: 
+  - rails caching
+  - custom fields caching
+  - memcahed
+  - activesupport concerns
 sharing: true
 ---
 

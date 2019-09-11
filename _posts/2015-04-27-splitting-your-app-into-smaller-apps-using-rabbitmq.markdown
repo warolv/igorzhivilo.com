@@ -2,13 +2,20 @@
 title: "Splitting your app into smaller apps using RabbitMQ"
 date: 2015-04-27 08:59
 comments: true
+header:
+  teaser: assets/images/rabbitmq.png
 categories:
   - rails
 tags:
   - rails
   - rabbitMQ
 description: Messaging with rabbitmq, splitting your app with rabbitmq, decoupligg of your app with rabbitmq, using bunny and snakers gems, working with amqp on rails
-keywords: messaging, rabbitmq, amqp, bunny, sneakers
+keywords: 
+  - messaging
+  - rabbitmq
+  - amqp
+  - bunny
+  - sneakers
 sharing: true
 ---
 
