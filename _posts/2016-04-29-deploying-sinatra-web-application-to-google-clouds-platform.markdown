@@ -18,6 +18,7 @@ keywords:
   - google SDK ruby
 sharing: true
 ---
+In this post I will describe how to create simple 'hello world' app with sinatra and deploy it using google clouds platform.
 
 ### Creating basic 'hello world' app with sinatra
 

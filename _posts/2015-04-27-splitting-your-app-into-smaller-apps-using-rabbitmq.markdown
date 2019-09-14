@@ -2,8 +2,6 @@
 title: "Splitting your app into smaller apps using RabbitMQ"
 date: 2015-04-27 08:59
 comments: true
-header:
-  teaser: assets/images/rabbitmq.png
 categories:
   - rails
 tags:

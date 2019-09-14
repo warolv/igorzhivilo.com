@@ -2,8 +2,6 @@
 title: "Wordpress brute force password attack using XML-RPC API"
 date: 2017-05-14 17:12
 comments: true
-header:
-  teaser: assets/images/wordpress-hacking.png
 categories:
   - web-security
 tags:
@@ -20,12 +18,15 @@ keywords:
   - wordpress auditing
 sharing: true
 ---
+How to getadmin password for wordpress using [XML-RPC API](https://codex.wordpress.org/XML-RPC_WordPress_API/Users) and brute force attack?
+
 <img src="/assets/images/wordpress-hacking.png"/> 
 
 #### All code and information for educational purposes only
-
 Starting a series of posts about web security, which also a passion of mine besides development.  
-The first published post on this topic about getting admin password for wordpress using [XML-RPC API](https://codex.wordpress.org/XML-RPC_WordPress_API/Users) and brute force attack. Second choice may be a direct brute force attack via post form on 'wp-login.php' which may be more complex during
+The first published post on this topic about getting admin password for wordpress using [XML-RPC API](
+https://codex.wordpress.org/XML-RPC_WordPress_API/Users) and brute force attack.
+Second choice may be a direct brute force attack via post form on 'wp-login.php' which may be more complex during
 'Account Lockout Policy' and other things, which I will cover in other post.
 
 <!-- more -->

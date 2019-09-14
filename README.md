@@ -56,4 +56,4 @@ keywords:
   {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
 {%- endif -%}
 ```
-- Add keywords / descriptio to post
+- Add keywords / description to post

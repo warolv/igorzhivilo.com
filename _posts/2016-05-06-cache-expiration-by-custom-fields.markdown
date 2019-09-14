@@ -2,8 +2,6 @@
 title: "Cache expiration by custom fields"
 date: 2016-05-06 15:43
 comments: true
-header:
-  teaser: assets/images/memcached.png
 categories:
   - rails
 tags:
@@ -17,10 +15,9 @@ keywords:
   - activesupport concerns
 sharing: true
 ---
+I recently worked on the performance issue, which was solved by caching and I will describe below example of the solution which I came to.
 
 <img src="/assets/images/memcached.png"/> 
-
-I recently worked on the performance issue, which was solved by caching and I will describe below example of the solution which I came to.
 
 #### Goal
 1. Cache objects by custom object's fields.

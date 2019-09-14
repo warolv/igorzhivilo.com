@@ -2,8 +2,6 @@
 title: "Handling RabbitMQ publisher failures"
 date: 2015-05-01 14:21
 comments: true
-header:
-  teaser: assets/images/rabbitmq.png
 categories:
   - rails
 tags:

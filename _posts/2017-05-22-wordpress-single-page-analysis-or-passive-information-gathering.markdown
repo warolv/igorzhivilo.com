@@ -2,8 +2,6 @@
 title: "Wordpress single page analysis or passive information gathering"
 date: 2017-05-22 12:24
 comments: true
-header:
-  teaser: assets/images/wordpress-analysis.png
 categories:
   - web-security
 tags:
@@ -18,11 +16,12 @@ keywords:
 sharing: true
 draft: false
 ---
+Today I will show you how you can gather information about WordPress by loading and analyzing a single page; and then, based on this knowledge we will create script to automate the entire process.  
+
 <img src="/assets/images/wordpress-analysis.png" align="right"/> 
 
 #### All code and information for educational purposes only
 
-Today I will show you how you can gather information about WordPress by loading and analyzing a single page; and then, based on this knowledge we will create script to automate the entire process.  
 Why analyze only one page? Why not use existing automated solutions like [nikto](https://cirt.net/nikto2) or [WPScan](https://wpscan.org/)?  
 Those are great tools with plenty of functionality, but they create a lot of noise because they require multiple requests for targeting the site. That may be a problem, because if you need to perform reconnaissance on a WordPress site and remain undetected, your behavior must be the same as a regular user trying to read a blog on the WordPress site.
 
