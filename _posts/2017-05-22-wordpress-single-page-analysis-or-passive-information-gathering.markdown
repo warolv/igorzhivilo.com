@@ -15,6 +15,7 @@ keywords:
   - wordpress single page analysis
 sharing: true
 draft: false
+thumbnail: "/assets/images/wordpress-analysis.png"
 ---
 Today I will show you how you can gather information about WordPress by loading and analyzing a single page; and then, based on this knowledge we will create script to automate the entire process.  
 

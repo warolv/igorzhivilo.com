@@ -57,3 +57,18 @@ keywords:
 {%- endif -%}
 ```
 - Add keywords / description to post
+
+## Adding thumbnail image previes to list of posts
+- Add to post
+```
+---
+thumbnail: "/assets/images/jenkins-eks/eks/1.png"
+---
+```
+
+## Add to archive-single.html
+```html
+{% if post.thumbnail %}
+  <img src="{{ post.thumbnail }}" style="height:280px;display:block;margin:20px auto 0px auto;" />
+{% endif %}
+```

@@ -16,6 +16,7 @@ keywords:
   - jenkins multibranch pipeline
 sharing: true
 draft: false
+thumbnail: "/assets/images/jenkins-circleci/1.jpeg"
 ---
 
 <img src="/assets/images/jenkins-circleci/1.jpeg" align="center"/> 

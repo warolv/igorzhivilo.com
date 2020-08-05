@@ -13,6 +13,7 @@ keywords:
   - jenkins multibranch pipeline
 sharing: true
 draft: false
+thumbnail: "/assets/images/jenkins-pr/1.png"
 ---
 
 <img src="/assets/images/jenkins-pr/1.png" align="center"/> 

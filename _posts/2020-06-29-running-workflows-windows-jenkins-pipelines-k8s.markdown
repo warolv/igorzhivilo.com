@@ -14,6 +14,7 @@ keywords:
   - jenkins pipeline windows 
 sharing: true
 draft: false
+thumbnail: "/assets/images/jenkins-windows/1.jpeg"
 ---
 
 <img src="/assets/images/jenkins-windows/1.jpeg" align="center"/> 

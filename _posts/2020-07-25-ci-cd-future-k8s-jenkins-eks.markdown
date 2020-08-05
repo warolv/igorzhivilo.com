@@ -16,6 +16,7 @@ keywords:
   - ci-cd k8s
 sharing: true
 draft: false
+thumbnail: "/assets/images/jenkins-eks/eks/1.png"
 ---
 
 <img src="/assets/images/jenkins-eks/eks/1.png" align="center"/> 

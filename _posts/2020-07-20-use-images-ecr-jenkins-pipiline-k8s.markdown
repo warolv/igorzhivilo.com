@@ -14,6 +14,7 @@ keywords:
   - elastic container registry
 sharing: true
 draft: false
+thumbnail: "/assets/images/jenkins-ecr/1.png"
 ---
 
 <img src="/assets/images/jenkins-ecr/1.png" align="center"/> 

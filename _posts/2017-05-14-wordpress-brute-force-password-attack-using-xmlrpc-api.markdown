@@ -17,6 +17,7 @@ keywords:
   - wordpress security
   - wordpress auditing
 sharing: true
+thumbnail: "/assets/images/wordpress-hacking.png"
 ---
 How to getadmin password for wordpress using [XML-RPC API](https://codex.wordpress.org/XML-RPC_WordPress_API/Users) and brute force attack?
 
