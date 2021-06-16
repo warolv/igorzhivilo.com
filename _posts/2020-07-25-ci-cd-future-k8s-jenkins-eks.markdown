@@ -28,6 +28,10 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 * [Introduction](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
 * [Creating the VPC for EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
 * Creating the EKS cluster
+* [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
+* [Add Ingress Nginx and Cert-Manager]((http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/))
+* [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
+* [Create your first pipeline](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
 
 Let’s start.
 
@@ -190,6 +194,8 @@ Great, everything works as expected!
 In next post I will start with an explanation of how to install Cluster Autoscaler to our cluster.
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
+
+I will save all configuration created in this tutorial in my [Github](https://github.com/warolv/jenkins-eks)
 
 This post on my [medium](https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-eks-cluster-e4cce4eb3500)
 

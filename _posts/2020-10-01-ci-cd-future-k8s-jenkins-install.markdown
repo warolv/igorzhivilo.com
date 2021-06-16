@@ -31,6 +31,7 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 * [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
 * [Add Ingress Nginx and Cert-Manager](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm)
 * Install and configure Jenkins
+* [Create your first pipeline](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
 
 Let’s start.
 

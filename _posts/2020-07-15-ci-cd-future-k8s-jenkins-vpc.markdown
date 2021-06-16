@@ -28,6 +28,10 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 * [Introduction](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
 * Creating the VPC for EKS cluster
 * [Creating the EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
+* [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
+* [Add Ingress Nginx and Cert-Manager](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/)
+* [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
+* [Create your first pipeline](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
 
 ## What is Amazon VPC?
 
@@ -154,5 +158,7 @@ In AWS account go to Services -> CloudFormation -> Stacks, you must see
 <img src="/assets/images/jenkins-eks/vpc/8.png" align="center"/>
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
+
+I will save all configuration created in this tutorial in my [Github](https://github.com/warolv/jenkins-eks)
 
 This post on my [medium](https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-vpc-for-eks-cluster-a69b085441d1)
