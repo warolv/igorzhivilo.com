@@ -72,3 +72,14 @@ thumbnail: "/assets/images/jenkins-eks/eks/1.png"
   <img src="{{ post.thumbnail }}" style="height:280px;display:block;margin:20px auto 0px auto;" />
 {% endif %}
 ```
+## Enable https redirects
+Using Cloudflare for this:
+https://juristr.com/blog/2017/01/enable-ssl-jekyll-blog
+
+### Cloudflare's Rules
+
+www.igorzhivilo.com/*
+Forwarding URL (Status Code: 301 - Permanent Redirect, Url: https://igorzhivilo.com/$1)
+
+http://igorzhivilo.com/*
+Forwarding URL (Status Code: 301 - Permanent Redirect, Url: https://igorzhivilo.com/$1)
