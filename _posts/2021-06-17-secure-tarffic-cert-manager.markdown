@@ -64,7 +64,7 @@ To install Nginx Ingress we will use the Helm package manager.
 
 * Configured ‘A’ record which points to your Load Balancer created by Ingress, basically, an alias which points to created LB by Ingress.
 
-You can read about the installation and configuration of all those components in details in my post: [Building the CI/CD of the Future, NGINX Ingress + Cert-Manager](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/)
+You can read about the installation and configuration of all those components in details in my post: [Building the CI/CD of the Future, NGINX Ingress + Cert-Manager](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/)
 
 ## Configure Cluster Issuer to issue Let’s Encrypt certificates
 

@@ -18,7 +18,7 @@ keywords:
 sharing: true
 ---
 
-In previous posts I talked about [Handling RabbitMQ publisher failures](http://igorzhivilo.com/rails/handling-rabbitmq-publisher-failures/) and [Splitting your app into smaller apps using RabbitMQ](http://igorzhivilo.com/rails/splitting-your-app-into-smaller-apps-using-rabbitmq/). Now it’s time to talk about consumer failures handler.
+In previous posts I talked about [Handling RabbitMQ publisher failures](https://igorzhivilo.com/rails/handling-rabbitmq-publisher-failures/) and [Splitting your app into smaller apps using RabbitMQ](https://igorzhivilo.com/rails/splitting-your-app-into-smaller-apps-using-rabbitmq/). Now it’s time to talk about consumer failures handler.
 
 For consumer I use a great gem called ['sneakers'](https://github.com/jondot/sneakers), which uses different [job handling strategies](https://github.com/jondot/sneakers/wiki/Failures), with the default one called Oneshot handler, because it only tries once. For our app the maxretry handler was chosen; from its description: “Maxretry uses dead letter policies on Rabbitmq to requeue and retry messages after failure (rejections, errors and timeouts). When the maximum number of retries is reached it will put the message on an error queue.”
 

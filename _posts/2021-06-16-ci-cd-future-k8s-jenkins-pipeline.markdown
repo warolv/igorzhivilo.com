@@ -25,12 +25,12 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 
 ### Building the CI/CD of the Future published posts:
 
-* [Introduction](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
-* [Creating the VPC for EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
-* [Creating the EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
-* [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
-* [Add Ingress Nginx and Cert-Manager](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm)
-* [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
+* [Introduction](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
+* [Creating the VPC for EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
+* [Creating the EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
+* [Adding the Cluster Autoscaler](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
+* [Add Ingress Nginx and Cert-Manager](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm)
+* [Install and configure Jenkins](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
 * Create your first pipeline
 
 Let’s start.
@@ -43,7 +43,7 @@ https://plugins.jenkins.io/kubernetes/
 
 ## Login to Jenkins
 
-I explained how to get the password in the previous post: [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
+I explained how to get the password in the previous post: [Install and configure Jenkins](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
 
 ### Get the admin password of Jenkins
 
@@ -83,7 +83,7 @@ Credentials: click on Credentials -> add, select kind: ‘Kubernetes service acc
 
 <img src="/assets/images/jenkins-eks/pipeline/4.png" align="center"/> 
 
-You created this service account in previous post, jenkins service account: [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
+You created this service account in previous post, jenkins service account: [Install and configure Jenkins](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
 
 Click ‘Test Connection’ to test connectivity with the k8s cluster, if you see some connectivity problem: validate you created service account properly.
 

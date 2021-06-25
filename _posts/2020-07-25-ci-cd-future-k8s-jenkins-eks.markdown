@@ -25,13 +25,13 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 
 ### Building the CI/CD of the Future published posts:
 
-* [Introduction](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
-* [Creating the VPC for EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
+* [Introduction](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
+* [Creating the VPC for EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
 * Creating the EKS cluster
-* [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
-* [Add Ingress Nginx and Cert-Manager]((http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/))
-* [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
-* [Create your first pipeline](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
+* [Adding the Cluster Autoscaler](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
+* [Add Ingress Nginx and Cert-Manager]((https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/))
+* [Install and configure Jenkins](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install)
+* [Create your first pipeline](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
 
 Let’s start.
 
@@ -82,7 +82,7 @@ We using the AWS spot instances for our workflows to save costs and we can save 
 
 ## Let’s create the EKS cluster we defined
 
-If you don’t know how to create AWS user, install and configure AWS Cli, create VPC for EKS, look at my [previous](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/) post.
+If you don’t know how to create AWS user, install and configure AWS Cli, create VPC for EKS, look at my [previous](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/) post.
 
 ### Install ‘kubectl’
 https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html

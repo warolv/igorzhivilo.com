@@ -25,12 +25,12 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 ### Building the CI/CD of the Future published posts:
 
 * Introduction
-* [Creating the VPC for EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
-* [Creating the EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
-* [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
-* [Add Ingress Nginx and Cert-Manager]((http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/))
-* [Install and configure Jenkins](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install/)
-* [Create your first pipeline](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
+* [Creating the VPC for EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
+* [Creating the EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
+* [Adding the Cluster Autoscaler](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
+* [Add Ingress Nginx and Cert-Manager]((https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm/))
+* [Install and configure Jenkins](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-install/)
+* [Create your first pipeline](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
 
 ## How to Create an EKS cluster on AWS topics
 
@@ -90,7 +90,7 @@ To validate the code you build not breaks production by
 <img src="/assets/images/jenkins-eks/intro/3.png" align="center"/>
 
 The image above shows the status of the build received on PR.
-Also, I recommend you to read my post, [Perfect PR process on Github with Jenkins CI, multi-branch pipeline, and autostatus plugin](http://igorzhivilo.com/jenkins/perfect-pr-process-jenkins-pipeline-autostatus/)
+Also, I recommend you to read my post, [Perfect PR process on Github with Jenkins CI, multi-branch pipeline, and autostatus plugin](https://igorzhivilo.com/jenkins/perfect-pr-process-jenkins-pipeline-autostatus/)
 which explains in detail how to use CI like Jenkins to build your PR process with a multibranch pipeline and auto status plugin.
 
 ## The architecture of the EKS Cluster we building in this tutorial
@@ -140,7 +140,7 @@ https://cert-manager.io/docs/
 * Jenkins will be integrated with Vault by HashiCorp
 * Kubernetes plugin will be used to configure and use Jenkins dynamic agents on k8s
 
-To find and understand in detail what you need to integrate Vault into Jenkins, read my post: http://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/
+To find and understand in detail what you need to integrate Vault into Jenkins, read my post: https://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 

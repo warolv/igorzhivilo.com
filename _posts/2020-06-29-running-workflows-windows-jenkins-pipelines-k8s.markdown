@@ -171,7 +171,7 @@ Check you set node Selectors properly in this case, also if you have some proble
 
 In this example, I am using the ‘windows server core’ image and PowerShell to create a sample file and upload it to the s3 bucket, which you need to define.
 
-I also store credentials for AWS in the ‘Vault’, I described in the previous post [how to read Vault’s secrets in Jenkins pipeline](http://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/)
+I also store credentials for AWS in the ‘Vault’, I described in the previous post [how to read Vault’s secrets in Jenkins pipeline](https://igorzhivilo.com/jenkins/how-to-read-vault-secrets-from-declarative-pipeline/)
 
 ``` groovy
 def secrets = [

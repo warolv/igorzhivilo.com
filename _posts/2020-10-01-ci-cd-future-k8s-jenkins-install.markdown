@@ -25,13 +25,13 @@ In this tutorial, I will share my experience as a DevOps engineer at Cloudify.co
 
 ### Building the CI/CD of the Future published posts:
 
-* [Introduction](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
-* [Creating the VPC for EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
-* [Creating the EKS cluster](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
-* [Adding the Cluster Autoscaler](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
-* [Add Ingress Nginx and Cert-Manager](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm)
+* [Introduction](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins/)
+* [Creating the VPC for EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-vpc/)
+* [Creating the EKS cluster](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-eks/)
+* [Adding the Cluster Autoscaler](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ca)
+* [Add Ingress Nginx and Cert-Manager](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm)
 * Install and configure Jenkins
-* [Create your first pipeline](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
+* [Create your first pipeline](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-pipeline)
 
 Let’s start.
 
@@ -64,7 +64,7 @@ ingress:
           - jenkins.eks.cicd-future.com
 ```
 
-We enabled the Ingress rule and after Jenkins is installed, it will be accessible as **jenkins.eks.cicd-future.com**, and Let’s Encrypt certificate will be obtained for this domain. You can read about the ingress and certification mechanism in detail in the [previous post](http://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm).
+We enabled the Ingress rule and after Jenkins is installed, it will be accessible as **jenkins.eks.cicd-future.com**, and Let’s Encrypt certificate will be obtained for this domain. You can read about the ingress and certification mechanism in detail in the [previous post](https://igorzhivilo.com/jenkins/ci-cd-future-k8s-jenkins-ingress-cm).
 
 ### Backup
 
