@@ -83,3 +83,11 @@ Forwarding URL (Status Code: 301 - Permanent Redirect, Url: https://igorzhivilo.
 
 http://igorzhivilo.com/*
 Forwarding URL (Status Code: 301 - Permanent Redirect, Url: https://igorzhivilo.com/$1)
+
+### Deploy to production with google analytics enabled
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
+
+cd s3_website; sh deploy.sh
+```
