@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/eks/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/eks/1.png' align='center'/>  
+
+
+This is the second post of the tutorial in which I will describe how to create the EKS cluster based on VPC we created in the previous post."
+
 ---
 
 <img src="/assets/images/jenkins-eks/eks/1.png" align="center"/> 

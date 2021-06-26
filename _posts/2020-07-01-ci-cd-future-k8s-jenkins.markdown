@@ -16,6 +16,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/intro/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/intro/1.png' align='center'/>  
+
+
+In this tutorial, I will share my experience of creating a CI/CD on Kubernetes (AWS EKS) and using the Jenkins and spot instances as worker nodes of the cluster."
+
 ---
 
 <img src="/assets/images/jenkins-eks/intro/1.png" align="center"/> 

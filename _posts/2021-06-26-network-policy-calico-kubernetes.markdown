@@ -16,7 +16,13 @@ keywords:
   - aws eks
 sharing: true
 draft: false
-thumbnail: "/assets/images/network-policy/1.png"
+excerpt: "
+<img src='/assets/images/network-policy/1.png' align='center'/> 
+
+
+
+The main purpose of this post is to share my knowledge related to Calico CNI installation to the already existing EKS cluster and the **creation of Network Policies** to secure the cluster."
+
 ---
 
 <img src="/assets/images/network-policy/1.png" align="center"/> 

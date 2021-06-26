@@ -14,6 +14,30 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-pr/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-pr/1.png' align='center'/>  
+
+
+I am building a new CI/CD pipeline based on Kubernetes and Jenkins, I am also migrating jobs from CircleCi to Jenkins and one of the things I liked in CircleCI is the status returned to Pull request on Github for every stage of the pipeline.
+
+
+
+This is how it looks like
+
+<img src='/assets/images/jenkins-pr/2.png' align='center'/> 
+
+
+
+As you can see for each stage: build / build-rpm / docs / size / test CircleCI returns status, meaning status per stage.
+
+
+
+Looks good, but how can you implement this kind of behavior in Jenkins with the multibranch pipeline?
+
+
+
+Struggling to find the answer to these questions I came up with this solution, which I will showcase in this post."
+
 ---
 
 <img src="/assets/images/jenkins-pr/1.png" align="center"/> 

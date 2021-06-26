@@ -15,6 +15,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-ecr/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-ecr/1.png' align='center'/>  
+
+
+I am building a new CI/CD pipeline based on Kubernetes and Jenkins. Recently I integrated Elastic Container Registry with our CI/CD based on Jenkins. In this guide, I will share the knowledge on this topic."
+
 ---
 
 <img src="/assets/images/jenkins-ecr/1.png" align="center"/> 

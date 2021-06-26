@@ -16,6 +16,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-vault/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-vault/1.png' align='center'/>  
+
+
+I am building a new CI/CD pipeline based on Kubernetes and Jenkins. I store my secrets in the vault and in this article I will describe my experience with the integration of vault into a Jenkins pipeline."
+
 ---
 As a DevOps engineer at [Cloudify.co](http://cloudify.co) I am building a new CI/CD pipeline based on Kubernetes and Jenkins. I store my secrets in the vault and in this article I will describe my experience with the integration of vault into a Jenkins pipeline.
 

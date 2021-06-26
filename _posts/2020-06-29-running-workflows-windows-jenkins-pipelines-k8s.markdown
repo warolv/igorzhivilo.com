@@ -15,6 +15,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-windows/1.jpeg"
+excerpt: "
+<img src='/assets/images/jenkins-windows/1.jpeg' align='center'/>  
+
+
+I am building a new CI/CD pipeline based on Kubernetes and Jenkins. Recently working on one of the workflows I was in need to build artifacts (executables) on windows, and you can run pods(containers) with windows based images only on windows worker nodes. I will share my experience in this post about how to add windows worker nodes to your EKS cluster and then run windows workflows on the top of it."
+
 ---
 
 <img src="/assets/images/jenkins-windows/1.jpeg" align="center"/> 

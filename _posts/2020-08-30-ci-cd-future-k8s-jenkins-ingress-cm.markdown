@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/ing-cm/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/ing-cm/1.png' align='center'/>  
+
+
+This is the fourth post of the tutorial in which I will describe how to add NGINX Ingress and Cert-Manager to the EKS cluster we created in the previous posts."
+
 ---
 
 <img src="/assets/images/jenkins-eks/ing-cm/1.png" align="center"/> 

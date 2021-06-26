@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/ca/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/ca/1.png' align='center'/>  
+
+
+This is the third post of the tutorial in which I will describe how to add Cluster Autoscaler to the EKS cluster we created in the previous post."
+
 ---
 
 <img src="/assets/images/jenkins-eks/ca/1.png" align="center"/> 

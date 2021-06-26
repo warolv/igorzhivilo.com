@@ -1,5 +1,5 @@
 ---
-title: "CKA Exercises, Network Policy"
+title: "Certified Kubernetes Administrator (CKA) Exercises, Network Policy"
 date: 2021-06-25 09:24
 comments: true
 categories:
@@ -16,6 +16,13 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/cka-series/network-policy/1.png"
+excerpt: "
+<img src='/assets/images/cka-series/network-policy/1.png' align='center'/> 
+
+
+
+I started preparation for the CKA Kubernetes exam. In this series, I will share some exercises I find useful during my preparation in order to help you better prepare for the CKA exam. I will gather all exercises in my [github account](https://github.com/warolv/cka-series), clone this repo to get all exercises at once."
+
 ---
 
 <img src="/assets/images/cka-series/network-policy/1.png" align="center"/> 

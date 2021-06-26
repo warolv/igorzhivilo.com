@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/vpc/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/vpc/1.png' align='center'/>  
+
+
+This is the first post of tutorial in which I will describe how to create VPC for EKS cluster of our CI/CD based on Jenkins."
+
 ---
 
 <img src="/assets/images/jenkins-eks/vpc/1.png" align="center"/> 

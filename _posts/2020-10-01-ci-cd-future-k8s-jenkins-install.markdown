@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/jenkins/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/jenkins/1.png' align='center'/>  
+
+
+This is the fifth post of the tutorial in which I will describe how to install Jenkins with helm, configure it, use a persistent volume, and do daily Jenkins backups."
+
 ---
 
 <img src="/assets/images/jenkins-eks/jenkins/1.png" align="center"/> 

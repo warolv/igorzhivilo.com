@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-circleci/1.jpeg"
+excerpt: "
+<img src='/assets/images/jenkins-circleci/1.jpeg' align='center'/>  
+
+
+As a DevOps engineer I am partially involved in migration of CicrleCI workflows to Jenkins on Kubernetes. In this article, I will try to share my knowledge on this topic and I hope it will be useful to you."
+
 ---
 
 <img src="/assets/images/jenkins-circleci/1.jpeg" align="center"/> 

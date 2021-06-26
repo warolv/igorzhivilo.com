@@ -17,6 +17,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-eks/pipeline/0.png"
+excerpt: "
+<img src='/assets/images/jenkins-eks/pipeline/0.png' align='center'/>  
+
+
+This is the last post of the tutorial in which I will describe how to configure Jenkins Kubernetes plugin and how to create your first pipeline."
+
 ---
 
 <img src="/assets/images/jenkins-eks/pipeline/0.png" align="center"/> 

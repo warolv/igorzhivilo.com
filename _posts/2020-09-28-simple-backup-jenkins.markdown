@@ -15,6 +15,12 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/jenkins-backup/1.png"
+excerpt: "
+<img src='/assets/images/jenkins-backup/1.png' align='center'/>  
+
+
+I am building a new CI/CD pipeline based on Kubernetes and Jenkins. Recently I was dealing with the existent backup mechanism for Jenkins which stopped to work and I was in need of another solution. In this post, I will share my solution."
+
 ---
 
 <img src="/assets/images/jenkins-backup/1.png" align="center"/> 

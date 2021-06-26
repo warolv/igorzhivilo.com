@@ -19,6 +19,15 @@ keywords:
 sharing: true
 draft: false
 thumbnail: "/assets/images/saas-certs/1.png"
+excerpt: "
+<img src='/assets/images/saas-certs/1.png' align='center'/>  
+
+
+I am working on the creation of the Production Kubernetes (EKS) cluster with all needed mechanisms for our SaaS, including the TLS certificates issuing for secure communication to and within the k8s cluster.
+
+
+In this tutorial, I will show how to secure external and internal traffic coming to your application on the Kubernetes cluster by issuing the TLS certificates with the Cert-Manager."
+
 ---
 
 <img src="/assets/images/saas-certs/1.png" align="center"/> 
