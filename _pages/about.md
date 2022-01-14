@@ -11,77 +11,19 @@ Hi, my name is Igor!
 
 I am Software Engineer with a passion for infrastructure, cloud security and new technologines in general. Passionate to build a new things and solving interesting problems using modern technologies.
 
-Started to write the code professionaly from 2009
-on ASP.net | Angular.js | Ruby on Rails | PHP | Python, being full stack developer -> backend developer -> infra developer -> DevOps eventually.
+✅ Formerly employed by: Broadcom, vCita, currently work at Cloudify<br>
+✅ AWS Solution Architect 
 
-From 2018 I started to focus on Devops/SRE/Infra development.
-Mostly working with AWS and Kubernetes.
+► Kubernetes, primarily EKS: +4 Years.<br>
+► DevOps: +4 years.<br>
+► AWS services: +5 Years.<br>
+► Backend Developer: +8 Years. [ ASP.net | Ruby on Rails | PHP | Python ]
 
-Trying to share my experience as much as possible on my [blog]( https://igorzhivilo.com/blog)
+Expert in Kubernetes, AWS Services, IaC with Terraform // CDK // CloudFormation, CI-CD with Jenkins // CircleCI // Github Actions, monitoring with Prometheus // Grafana, logs with ELK stack
 
-I am AWS Certified Solutions Architect – Associate.
-
-Working on my CKA certificate currently.
-
-
-## Freelance and Consulting 
-
-
-### Technologies I have experience with:
-
-* Automation with Terraform / CDK / CloudFormation
-* AWS Services: S3 / EC2 / Autoscaling Groups / EFS / EBS / IAM / VPC / EKS / Lambda / ClouFormation / CloudFront / Route53 ...
-* Jenkins / CircleCI / Travis CI / Github Actions
-* ELK Stack
-* Monitoring with Prometheus / Grafana
-* Python / Ruby / Ruby on Rails / Shell Scripts / PowerShell ...
-* Kubernetes
-* Docker
-* Vault 
-* Packer
-
-### Services I provide:
-
-### Kubernetes
-
-* Kubernetes consulting
-
-* Migrate/Deploy an application to k8s
-  * Dockerize your application
-  * Create k8s yaml resources for your application
-  * Build helm chart
-
-* Securing k8s cluster
-
-* Apply k8s best practices
-
-* Setup and configure monitoring system for k8s cluster
-
-* Deploy and configure Vault to k8s cluster including backups
-
-### IaC
-* Provision k8s cluster
-  * Terraform
-  * CDK
-  * eksctl + CloudFormation
-
-* Provision AWS Services with:
-  * Terraform
-  * CDK
-  * CloudFormation
-
-### CI/CD
-* Provision and setup cost-optimized CI/CD, Jenkins to EKS
-
-* Pipeline Migration to Jenkins from 
-  * Github Actions
-  * Circle-CI
-  * Travis-CI
-
-* Create New pipelines for Jenkins on k8s
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
 
 Send me email to [warolv@gmail.com](mailto:warolv@gmail.com)
-
 
 Please feel free to reach me also on:
 * [GitHub](https://github.com/warolv)
