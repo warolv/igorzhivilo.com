@@ -165,4 +165,6 @@ I hope this post was helpful and thank you for reading.
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 and [Medium](https://medium.com/@warolv)

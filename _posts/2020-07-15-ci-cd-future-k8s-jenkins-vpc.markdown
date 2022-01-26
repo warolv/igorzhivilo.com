@@ -165,6 +165,8 @@ In AWS account go to Services -> CloudFormation -> Stacks, you must see
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 I will save all configuration created in this tutorial in my [Github](https://github.com/warolv/jenkins-eks)
 
 This post on my [medium](https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-vpc-for-eks-cluster-a69b085441d1)

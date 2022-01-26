@@ -240,10 +240,11 @@ https://github.com/warolv/vault-backup
 
 ### You can use it to:
 
-* Dump all your secrets as encrypted yaml/json files, or you can store it without encryption.
+* Dump all your secrets.
 * Get a list of your secrets.
 * Print all secrets nicely.
-* Populate Vault from yaml/json dumps to a specific 'vault_prefix'.
+* Print secrets from dump.
+* Populate Vault from dump to a specific 'vault_prefix'.
 
 Also, I think to extend it to use different auth methods, besides appRole, create CLI, to run it in the command line and much more :-)
 
@@ -267,7 +268,7 @@ def secrets = [
     [envVar: 'ROLE_ID', vaultKey: 'role_id'],
     [envVar: 'SECRET_ID', vaultKey: 'secret_id'],
     [envVar: 'VAULT_PREFIX', vaultKey: 'vault_prefix'],
-    [envVar: 'DUMP_ENCRYPTION_PASSWORD', vaultKey: 'encryption_password']]],
+    [envVar: 'ENCRYPTION_KEY', vaultKey: 'encryption_key']]],
 ]
 
 def podTemplate = """
@@ -338,6 +339,8 @@ In this post, I described how to automate Vault backup creation using Jenkins sc
 Thank you for reading, I hope you enjoyed it, see you in the next post.
 
 If you want to be notified when the next post of this tutorial is published, please follow me on Twitter [@warolv](https://twitter.com/warolv).
+
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
 
 Medium account: warolv.medium.com
 

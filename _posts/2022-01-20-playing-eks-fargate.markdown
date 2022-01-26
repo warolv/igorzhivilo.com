@@ -336,6 +336,8 @@ Thank you for reading, I hope you enjoyed it, see you in the next post.
 
 If you want to be notified when the next post of this tutorial is published, please follow me on Twitter [@warolv](https://twitter.com/warolv).
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 Instagram: [@warolv](https://www.instagram.com/warolv)
 
 My medium account: warolv.medium.com

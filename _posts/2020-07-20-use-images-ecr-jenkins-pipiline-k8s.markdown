@@ -290,3 +290,5 @@ I explained in this guide how to configure ECR in your account, create an image 
 
 I hope this guide was helpful and thank you for reading.
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+

@@ -203,6 +203,8 @@ Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
 I will save all configuration created in this tutorial in my [Github](https://github.com/warolv/jenkins-eks)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 This post on my [medium](https://medium.com/@warolv/building-the-ci-cd-of-the-future-creating-the-eks-cluster-e4cce4eb3500)
 
 

@@ -21,17 +21,21 @@ excerpt: "
 
 
 
-I started preparation for the CKA Kubernetes exam. In this series, I will share some exercises I find useful during my preparation in order to help you better prepare for the CKA exam. I will gather all exercises in my [github account](https://github.com/warolv/cka-series), clone this repo to get all exercises at once."
+I started preparation for the CKA Kubernetes exam. In this series, I will share some exercises I find useful during my preparation in order to help you better prepare for the CKA exam. I will gather all exercises in my [github account](https://github.com/warolv/cka-series), clone this repo to get all exercises at once.
+
+
+This post with exercises for Network Policy and based on example of 3 tier application which deployed to same namespace."
 
 ---
 
 <img src="/assets/images/cka-series/network-policy/1.png" align="center"/> 
 
-I am a DevOps/Software engineer (at Cloudify.co), and I started preparation for the CKA Kubernetes exam. In this series, I will share some exercises I find useful during my preparation in order to help you better prepare for the CKA exam. I will gather all exercises in my [github account](https://github.com/warolv/cka-series), clone this repo to get all exercises at once.
+I started preparation for the CKA Kubernetes exam. In this series, I will share some exercises I find useful during my preparation in order to help you better prepare for the CKA exam. I will gather all exercises in my [github account](https://github.com/warolv/cka-series), clone this repo to get all exercises at once.
 
 ### CKA exercises series published posts:
 
 * Network Policy
+* [Network Policy, Namespace](https://igorzhivilo.com/cka/cka-series-network-policy-ns/)
 
 ## Prerequisites
 
@@ -62,13 +66,13 @@ $ kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/mast
 
 ## Environment Preparation
 
-1. Create **moon** namespace:
+### Create moon namespace:
 
 ``` bash
 $ kubectl create ns moon
 ```
 
-2. Deploy our **spaceship** application to **moon** namespace:
+### Deploy our spaceship application to moon namespace:
 
 <img src="/assets/images/cka-series/network-policy/2.png" align="center"/>
 
@@ -94,7 +98,7 @@ $ kubectl run --generator=run-pod/v1 db --image=nginx --labels=app=db --port 80 
 $ kubectl expose pod db --type=ClusterIP --port=80 -n moon
 ```
 
-3. Validate that connections between all pods in **moon** permitted
+### Validate that connections between all pods in moon permitted
 
 ``` bash
 $ kubectl exec -it web -- curl api
@@ -103,7 +107,7 @@ $ kubectl exec -it api -- curl db
 
 You must see 'Welcome to nginx!' reply in all cases.
 
-4. Create **earth** namespace and deploy the web app there:
+### Create earth namespace and deploy the web app there:
 
 ``` bash
 $ kubectl create ns earth
@@ -112,7 +116,7 @@ $ kubectl run --generator=run-pod/v1 web --image=nginx --labels=app=web --port 8
 $ kubectl expose pod web --type=ClusterIP --port=80 -n earth
 ```
 
-5. Validate connections between web pod in **earth** to all pods of **moon permitted**:
+### Validate connections between web pod in earth to all pods of moon permitted:
 
 ``` bash
 $ kubectl exec -it web -n earth -- curl web.moon
@@ -126,7 +130,7 @@ You must see 'Welcome to nginx!' reply in all cases.
 
 All actions must be applied to **moon** namespace.
 
-1. Enable pod isolation: drop all connections between pods.
+### Enable pod isolation: drop all connections between pods.
 
 <img src="/assets/images/cka-series/network-policy/3.png" align="center"/>
 
@@ -137,7 +141,7 @@ $ kubectl exec -it web -- curl api
 $ kubectl exec -it api -- curl db
 ```
 
-2. Allow all traffic between pods.
+### Allow all traffic between pods.
 
 <img src="/assets/images/cka-series/network-policy/4.png" align="center"/>
 
@@ -145,7 +149,7 @@ Please **delete allow all** network policy after you deployed it and validated i
 
 After you applied this network policy, everything must back to normal.
 
-3. **Improve** pod isolation from 1. , by adding **egress traffic to DNS** for all pods, port 53.
+### Improve pod isolation from 1. , by adding egress traffic to DNS for all pods, port 53.
 
 <img src="/assets/images/cka-series/network-policy/5.png" align="center"/>
 
@@ -156,7 +160,7 @@ $ kubectl exec -it web -- curl api
 $ kubectl exec -it api -- curl db
 ```
 
-4. **web pod**: enable ingress for everyone and egress to api pod only.
+### web pod: enable ingress for everyone and egress to api pod only.
 
 <img src="/assets/images/cka-series/network-policy/6.png" align="center"/>
 
@@ -166,7 +170,7 @@ $ kubectl exec -it web -n earth -- curl web.moon
 
 You must see 'nginx' welcome page. Egress to api pod still will not work, because you need enable ingress from web on api first.
 
-5. **api pod**: enable ingress from web pod and egress to db pod.
+### api pod: enable ingress from web pod and egress to db pod.
 
 <img src="/assets/images/cka-series/network-policy/7.png" align="center"/>
 
@@ -176,7 +180,7 @@ $ kubectl exec -it web -- curl api
 
 You must see 'nginx' welcome page. Egress to db pod still will not work, because you need enable ingress from api on db first.
 
-6. **db pod**: ingress from api pod only.
+### db pod: ingress from api pod only.
 
 <img src="/assets/images/cka-series/network-policy/8.png" align="center"/>
 
@@ -186,13 +190,13 @@ $ kubectl exec -it api -- curl db
 
 You must see 'nginx' welcome page.
 
-7. Add **ingress port filtering for port 80**,  for web / api / db pods.
+### Add ingress port filtering for port 80,  for web / api / db pods.
 
 That how it looks after you applied all network policies from previous 7 exercises (besides 2):
 
 <img src="/assets/images/cka-series/network-policy/9.png" align="center"/>
 
-8. **web pod** must have ingress and egress internet access (use external services to work properly), but must **deny egress access to any pod inside of the k8s cluster**, except api pod (which already done previously)  in the same namespace.
+### web pod must have ingress and egress internet access (use external services to work properly), but must deny egress access to any pod inside of the k8s cluster, except api pod (which already done previously)  in the same namespace.
 
 <img src="/assets/images/cka-series/network-policy/10.png" align="center"/>
 
@@ -206,7 +210,7 @@ $ kubectl exec -it web -- curl web.earth
 
 ## Solution
 
-1. Enable pod isolation in **moon** namespace
+### Enable pod isolation in moon namespace
 
 ``` yaml
 apiVersion: networking.k8s.io/v1
@@ -220,7 +224,7 @@ spec:
   - Egress
 ```
 
-2. Allow all traffic between pods in **moon** namespace
+### Allow all traffic between pods in moon namespace
 
 ``` yaml
 kind: NetworkPolicy
@@ -239,7 +243,7 @@ spec:
   - {}
 ```
 
-3. **Improve** pod isolation from 1. , by adding **egress traffic to DNS** for all pods, port 53.
+### Improve pod isolation from 1. , by adding egress traffic to DNS for all pods, port 53.
 
 ``` yaml
 apiVersion: networking.k8s.io/v1
@@ -259,7 +263,7 @@ egress:
     port: 53
 ```
 
-4. **web pod**: enable ingress for everyone and egress to api pod only
+### web pod: enable ingress for everyone and egress to api pod only
 
 ``` yaml
 apiVersion: networking.k8s.io/v1
@@ -283,7 +287,7 @@ spec:
           app: api
 ```
 
-5. **api pod**: enable ingress from web pod and egress to db pod.
+### api pod: enable ingress from web pod and egress to db pod.
 
 ``` yaml
 apiVersion: networking.k8s.io/v1
@@ -310,7 +314,7 @@ spec:
           app: db
 ```
 
-6. **db pod**: ingress from api pod only.
+### db pod: ingress from api pod only.
 
 ``` yaml
 apiVersion: networking.k8s.io/v1
@@ -332,7 +336,7 @@ spec:
           app: api
 ```
 
-7. Add **ingress port filtering for port 80**, for web / api / db pods.
+### Add ingress port filtering for port 80, for web / api / db pods.
 
 
 ``` yaml
@@ -344,7 +348,7 @@ ingress:
 
 You must add it to web / api /db network policy.
 
-8. **web pod** must have ingress and egress internet access (use external services to work properly), but must **deny egress access to any pod inside of the k8s cluster**, except api pod (which already done previously) in the same namespace.
+### web pod must have ingress and egress internet access (use external services to work properly), but must deny egress access to any pod inside of the k8s cluster, except api pod (which already done previously) in the same namespace.
 
 ``` yaml
 egress:
@@ -363,5 +367,7 @@ It basically means **permit external**(internet) access, but **deny access to lo
 I will publish new posts of CKA exersises series first in my personal [blog](https://igorzhivilo.com), and in this [github account](https://github.com/warolv/cka-series), please clone this repo so I would now it's valuable to you and I will create more of exercises.
 
 Also follow me on medium and Twitter [@warolv](https://twitter.com/warolv)
+
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
 
 My account on medium: [warolv.medium.com](https://warolv.medium.com)

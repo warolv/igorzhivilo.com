@@ -252,6 +252,8 @@ Finished: SUCCESS
 As you can see, integrating vault into the Jenkins pipeline is not so complex, if you do it properly and spend some time to understand exactly what engine and version you are using before proceeding. I hope this post was helpful to you and now the integration process seems more obvious.
 Thank you for reading.
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 You can also find my article on medium: [How To Read Vault’s Secrets from Jenkin’s Declarative Pipeline](https://codeburst.io/read-vaults-secrets-from-jenkin-s-declarative-pipeline-50a690659d6)
 
 

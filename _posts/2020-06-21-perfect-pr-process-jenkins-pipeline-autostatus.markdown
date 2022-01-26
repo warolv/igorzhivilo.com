@@ -259,6 +259,7 @@ And finally, you must see something similar to this in your PR
 
 You can also find my article on medium: [Perfect PR process on Github with Jenkins CI, multi-branch pipeline, and autostatus plugin](https://levelup.gitconnected.com/perfect-pr-process-on-github-with-jenkins-ci-multi-branch-pipeline-and-autostatus-plugin-33e1805dc619)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
 
 Thank you for reading and hope it was valuable for you!
 

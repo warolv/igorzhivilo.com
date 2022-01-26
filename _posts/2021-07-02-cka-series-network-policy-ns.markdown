@@ -224,4 +224,6 @@ I will publish new posts of CKA exersises series first in my personal [blog](htt
 
 Also follow me on medium and Twitter [@warolv](https://twitter.com/warolv)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 My account on medium: [warolv.medium.com](https://warolv.medium.com)

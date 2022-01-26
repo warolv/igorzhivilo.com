@@ -264,4 +264,6 @@ Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
 [My Github](https://github.com/warolv)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 This post on my [medium](https://faun.pub/secure-traffic-to-your-application-with-kubernetes-and-cert-manager-cc2b44d29beb)

@@ -150,6 +150,8 @@ To find and understand in detail what you need to integrate Vault into Jenkins, 
 
 Please follow me on [Twitter (@warolv)](https://twitter.com/warolv)
 
+For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
+
 I will save all configuration created in this tutorial in my [Github](https://github.com/warolv/jenkins-eks)
 
 This post on my [medium](https://medium.com/@warolv/build-ci-cd-of-the-future-with-kubernetes-aws-eks-and-jenkins-84b744f26949)
