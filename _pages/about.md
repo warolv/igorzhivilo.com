@@ -16,6 +16,7 @@ Send me email to [warolv@gmail.com](mailto:warolv@gmail.com)
 Please feel free to reach me also on:
 * [GitHub](https://github.com/warolv)
 * [Twitter](https://twitter.com/warolv)
+* [YouTube](https://www.youtube.com/@igorzhivilo)
 * [LinkedIn](https://www.linkedin.com/in/igorzhivilo/)
 * [Instagram](https://www.instagram.com/warolv/)
 

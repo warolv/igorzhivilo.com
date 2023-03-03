@@ -9,10 +9,11 @@ author_profile: true
 [https://github.com/warolv/vault-backup](https://github.com/warolv/vault-backup)
 
 ### You can use it to:
-* Dump all your secrets as encrypted yaml/json files, or you can store it without encryption.
+* Dump all your secrets as encrypted dump.
 * Get a list of your secrets.
 * Print all secrets nicely.
-* Populate Vault from yaml/json dumps to a specific 'vault_prefix'.
+* Print secrets from dump.
+* Populate Vault from dumps to a specific 'vault_prefix'.
 
 You can read how to create scheduled backup with Jenkis in this [post](https://igorzhivilo.com/vault/scheduled-backup-vault-secrets/)
 
@@ -37,18 +38,23 @@ You can read how to create scheduled backup with Jenkis in this [post](https://i
 * [Network Policy](https://igorzhivilo.com/cka/cka-series-network-policy/)
 * [Network Policy, Namespace](https://igorzhivilo.com/cka/cka-series-network-policy-ns/)
 
-## Highlearn - school system for managing course grades (Ruby on Rails)
-[https://github.com/warolv/high-learn](https://github.com/warolv/high-learn)
+## Github Actions guides:
 
-* The system allows other systems to create and modify Students, Teachers, Courses and Grades
-* The system provides statistical calculations over this data.
-* The communication with the system is RESTful over HTTP.
+* [Use GitHub Actions and Terraform to provision EC2 instance](https://igorzhivilo.com/github-actions/github-actions-terraform-provision/)
+* [GitOps way with Github Actions and self-hosted runner on Kubernetes](https://igorzhivilo.com/github-actions/github-actions-gitops-k8s/)
+* [Automatic scaling with Github Actions and self-hosted runners](https://igorzhivilo.com/github-actions/github-actions-automatic-scaling/)
 
-## Example of ETL ( Extract, transform, load like) on GCP
+## Kubernetes Guides
 
-[https://github.com/warolv/simple_etl](https://github.com/warolv/simple_etl)
+* [Create Pod on Kubernetes using k8s API and cURL](https://github.com/warolv/k8s-guides/blob/master/k8s-api-curl.md) 
 
-### Building a basic ETL ( Extract, transform, load like) using GCP services - Cloud Functions(serverless), PubSub, DataFlow, BigQuery
+  [YT Video](https://youtu.be/oiD80Sxzi4s)
+
+* [Create Pod on Kubernetes using python](https://github.com/warolv/k8s-guides/blob/master/k8s-create-pod-python.md)
+
+  [YT Video](https://youtu.be/tLKUH3HP0Lg)
+
+* [Provision EKS cluster with terraform](https://github.com/warolv/k8s-guides/blob/master/k8s-eks-with-terraform.md)
 
 
 Multiple other project you can find on my [github account](https://github.com/warolv)
