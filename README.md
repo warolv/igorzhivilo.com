@@ -89,5 +89,9 @@ Forwarding URL (Status Code: 301 - Permanent Redirect, Url: https://igorzhivilo.
 ```bash
 JEKYLL_ENV=production bundle exec jekyll build
 
-cd s3_website; sh deploy.sh
+export AWS_ACCESS_KEY_ID=MY_ACCESS_KEY_ID
+export AWS_SECRET_ACCESS_KEY=MY_SECRET_ACCESS_KEY
+
+cd _site
+aws s3 sync . s3://igorzhivilo.com
 ```
