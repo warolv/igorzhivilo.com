@@ -9,7 +9,7 @@ Hi, my name is Igor!
 
 I am Software Engineer with a passion for infrastructure, cloud security and new technologines in general. Passionate to build a new things and solving interesting problems using modern technologies.
 
-✅ Formerly employed by: Cloudify, Broadcom, vCita, currently work at Tikal<br>
+✅ Formerly employed by: Cloudify, Broadcom, vCita, Efficient frontier, Gong<br>
 ✅ AWS Solution Architect 
 
 ► Kubernetes, primarily EKS: +5 Years.<br>
@@ -19,7 +19,10 @@ I am Software Engineer with a passion for infrastructure, cloud security and new
 
 Expert in Kubernetes, AWS Services, IaC with Terraform // CDK // CloudFormation, CI-CD with Jenkins // CircleCI // Github Actions, monitoring with Prometheus // Grafana, logs with ELK stack
 
-For consulting gigs you can reach me on [Upwork](https://www.upwork.com/freelancers/warolv)
-
 You can also send me email to [warolv@gmail.com](mailto:warolv@gmail.com)<br>
+
 Or using the [LinkedIn](https://www.linkedin.com/in/igorzhivilo/)
+
+[YouTube](https://www.youtube.com/@igorzhivilo)
+
+[Twitter](https://twitter.com/warolv)

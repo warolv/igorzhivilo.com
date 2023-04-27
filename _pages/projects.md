@@ -41,8 +41,15 @@ You can read how to create scheduled backup with Jenkis in this [post](https://i
 ## Github Actions guides:
 
 * [Use GitHub Actions and Terraform to provision EC2 instance](https://igorzhivilo.com/github-actions/github-actions-terraform-provision/)
+[YT Video](https://youtu.be/-910lhQXJIs)
+
 * [GitOps way with Github Actions and self-hosted runner on Kubernetes](https://igorzhivilo.com/github-actions/github-actions-gitops-k8s/)
+[YT Video](https://youtu.be/cV1LhQT1bK4)
+
 * [Automatic scaling with Github Actions and self-hosted runners](https://igorzhivilo.com/github-actions/github-actions-automatic-scaling/)
+* [Github Actions with k8s and Karpenter to dynamically provision your runners on spot instances](https://igorzhivilo.com/github-actions/github-actions-karpenter-spots/)
+* [Github Actions with ChatOps to write beautiful python code](https://igorzhivilo.com/github-actions/github-actions-chatops-python/)
+* [Use OpenID Connect with Github Actions to authenticate with Amazon Web Services](https://igorzhivilo.com/github-actions/github-actions-openid-aws/)
 
 ## Kubernetes Guides
 
@@ -58,4 +65,3 @@ You can read how to create scheduled backup with Jenkis in this [post](https://i
 
 
 Multiple other project you can find on my [github account](https://github.com/warolv)
-
