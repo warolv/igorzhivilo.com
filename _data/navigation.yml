@@ -1,0 +1,11 @@
+# main links
+main:
+  - title: "Blog posts"
+    url: /blog/
+  - title: "Side projects"
+    url: /projects/
+  - title: "Consulting"
+    url: /consulting/
+  - title: "About Me"
+    url: /about/
+ 
